@@ -1,5 +1,20 @@
-# test 
-
-
 # An Analysis of Kickstarter Campaigns
-Performing Analysis on Kickstarter Data to uncover trends
+## Performing Analysis on Kickstarter Data to uncover trends
+## Overview of the Project
+The project's overall purpose is to identify trends of Kickstarter projects for plays. Specifically, the project examined if goals for plays were more likely to be successful (or not) in reaching their funding goals based on the amount of their goal and the timing of their launch date. 
+## Analysis and Challenges
+For the first part of the analysis, I examined Theater Outcomes by Launch Date. I used a pivot chart filtered by parent category and year. Additionally, the columns listed the outcomes, the rows displayed the date created, and the values were counts of outcomes. This provided a chart that listed the number of plays by month that were either successful, failed, or canceled. Next, I created a chart to easily visualize this data where the x-axis listed the months and the y-axis listed the total number of plays. 
+For the second part of the analysis, I looked out Outcomes based on Goals. Here I used Excel's "COUNTIF" function to count the number of successful, failed, and canceled projects based on their original goal in increments ranging from less than $1,000 to $50,000 in $5,000 increments. I then used Excel's "SUM" function to total the number of successful, failed, and canceled plays in each subcategory based on the original funding goal. Next, I used Excel to calculate the percentage for the Goal subcategory of the successful, failed, and canceled categories. Finally, I used the charting function to chart these percentages where the x-axis is the various goals sizes, and the y-axis is the percentage.  Results: Answer the following questions in complete and coherent sentences.
+## Results
+### What are two conclusions you can draw about the Theater Outcomes by Launch Date? 
+I can draw two conclusions about the Outcomes by Launch Date: A play stands the best chance of successfully reaching its funding goals if it launches in late spring/early summer and is least likely to be successful with a December launch date. Additionally, while there is only a small variation in the numbers of failed plays throughout the year, failed plays make up a more significant percentage of total plays in December.
+### What can you conclude about the Outcomes based on Goals?
+I can conclude that a project stands a higher chance of success if the goal is below $5,000.
+### What are some limitations of this dataset?
+One of the limitations of the data set is the small number of campaigns in some categories. For instance, the data shows that projects with goals between $35,000 to $50,000 have a high rate of success (> 60%), but this trend is probably not significant given the small overall number of projects that fall into this category. Other limitations could be the time frame of the data (2010 – 2017). Seven years might be too short for some analysis and too long for others. I would think certain sectors of the art world go through trends just like any other sector. Maybe plays were unpopular and difficult to secure funding (or perhaps it’s the opposite). It is impossible to know given the provided data.
+### What are some other possible tables and/or graphs that we could create?
+Another table that might be beneficial is to examine how much each successful campaign secured over its goal and how many backers such campaigns had. This could focus the client’s approach to fundraising by answering whether it is better to go after a few large donors or numerous smaller ones. Another chart that might be beneficial is better understanding how correlated fundraising efforts are with the larger economy. This might allow the client to determine the most opportune time during the economic cycle to launch a campaign.
+
+![Outcomes_vs_Goals](https://user-images.githubusercontent.com/100163289/158080698-99521143-5212-4a9e-b873-3779ff12918e.png)
+
+![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/100163289/158080719-a051e7f0-6934-4d97-a692-2d843be2e518.png)
